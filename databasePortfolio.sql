@@ -229,7 +229,7 @@ CREATE TABLE `user` (
 
 INSERT INTO `user` (`id`, `email`, `nombre`, `nombre_usuario`, `password`) VALUES
 (1, 'loreley.cb15@gmail.com', 'admin', 'admin', 'lore#1504'),
-(2, 'user@user.com', 'user', 'user', '');
+(2, 'user@user.com', 'user', 'user', 'user');
 
 -- --------------------------------------------------------
 
