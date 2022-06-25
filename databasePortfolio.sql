@@ -39,7 +39,7 @@ CREATE TABLE `estudios` (
 --
 
 INSERT INTO `estudios` (`id`, `casa_de_estudios`, `fecha_inicio`, `fecha_termino`, `titulo_estudios`, `url_logo`, `persona_id`) VALUES
-(96, 'Digital House', '2021', '', 'Programación Web Full Stack', 'https://ibb.co/5T041QM', 1),
+(96, 'Digital House', '2021', '', 'Programación Web Full Stack', 'https://i.ibb.co/nrGmwXg/digital-house-logo.png', 1),
 (97, 'Argentina Programa', '2021', NULL, 'Full Stack Developer', 'https://i.ibb.co/346BKsN/arg-programa.png', 1);
 
 -- --------------------------------------------------------
@@ -63,6 +63,10 @@ CREATE TABLE `experiencia_laboral` (
 --
 
 INSERT INTO `experiencia_laboral` (`id`, `descripcion`, `fecha_finalizacion`, `fecha_inicio`, `nombre_empresa`, `puesto`, `persona_id`) VALUES
+(109,'Participación activa en todas las fases del ciclo de vida del
+desarrollo de software, colaborando en definiciones de arquitectura que resulten escalables.
+Colaboración con el equipo en el diseño, implementación,
+documentación y revisión de código.', 'En la actualidad', '2022', 'Tipie development', 'Desarrolladora web full stack Node JS | JavaScript | CSS3 | HTML5 | React Js | React native | MySQL', 1),
 (110,'Atención al cliente, gestión de reclamos, asesoramiento de servicio
 técnico, ventas en salón y manejo de caja', '2012', '2012', 'Movistar', 'Atención al cliente', 1),
 (115,'Atención, seguimiento de pedidos y asesoramiento telefónico a clientes
@@ -154,8 +158,9 @@ CREATE TABLE `proyectos` (
 --
 
 INSERT INTO `proyectos` (`id`, `descripcion`, `nombre_proyecto`, `url_imagen`, `url_proyecto`, `persona_id`) VALUES
-(111, NULL, 'Las yerberas masoterapia', 'https://ibb.co/hFb5crV', 'https://lasyerberasmasoterapia.netlify.app/', 1),
-(112, NULL, 'Star wars planets', 'https://ibb.co/ZfftwKb', 'https://starwarsplanetschallenge.netlify.app/', 1);
+(111, NULL, 'Las yerberas masoterapia', '
+https://i.ibb.co/KxdZDBW/las-yerberas-poster.jpg', 'https://lasyerberasmasoterapia.netlify.app/', 1),
+(112, NULL, 'Star wars planets', 'https://i.ibb.co/K55RQ78/star-wars-poster.jpg', 'https://starwarsplanetschallenge.netlify.app/', 1);
 
 -- --------------------------------------------------------
 
