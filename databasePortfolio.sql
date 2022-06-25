@@ -158,8 +158,7 @@ CREATE TABLE `proyectos` (
 --
 
 INSERT INTO `proyectos` (`id`, `descripcion`, `nombre_proyecto`, `url_imagen`, `url_proyecto`, `persona_id`) VALUES
-(111, NULL, 'Las yerberas masoterapia', '
-https://i.ibb.co/KxdZDBW/las-yerberas-poster.jpg', 'https://lasyerberasmasoterapia.netlify.app/', 1),
+(111, NULL, 'Las yerberas masoterapia', 'https://i.ibb.co/KxdZDBW/las-yerberas-poster.jpg', 'https://lasyerberasmasoterapia.netlify.app/', 1),
 (112, NULL, 'Star wars planets', 'https://i.ibb.co/K55RQ78/star-wars-poster.jpg', 'https://starwarsplanetschallenge.netlify.app/', 1);
 
 -- --------------------------------------------------------
